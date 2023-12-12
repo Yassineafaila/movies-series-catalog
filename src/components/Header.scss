@@ -1,0 +1,59 @@
+.navbar {
+  #{&}-brand {
+    font-size: 25px;
+    .logoLeft {
+      color: var(--text-color);
+    }
+    .logoRight {
+      color: var(--secondary-color);
+      background-color: var(--primary-color);
+    }
+  }
+  #{&}-collapse {
+    .nav-item {
+      .nav-link {
+        color: var(--text-color);
+        font-size: 1rem;
+        font-weight: var(--fw-semibold);
+        &:hover {
+          color: var(--primary-color);
+        }
+      }
+      .dropdown-menu {
+        margin-top: 0.25rem !important;
+        padding: 0.625rem 0 !important;
+        .dropdown-item {
+          margin: 10px 0 !important;
+          width: 100%;
+          padding: 0 15px !important;
+          font-weight: var(--fw-regular);
+          font-size: 0.9375rem;
+          &:hover {
+            // background-color: rgba(209, 10, 10,0.7);
+            background-color: rgba(237, 110, 13, 0.6);
+            color: var(--text-color);
+          }
+        }
+      }
+    }
+  }
+  #{&}-toggler{
+    background-color: #fff;
+
+  }
+  form {
+    input[type="search"] {
+      &:focus {
+        border: 1px solid var(--primary-color) !important;
+        box-shadow: none !important;
+      }
+    }
+    button {
+      background-color: var(--primary-color);
+      border: none !important;
+      &:hover {
+        background-color: coral;
+      }
+    }
+  }
+}

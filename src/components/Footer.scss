@@ -1,0 +1,14 @@
+footer{
+    .container{
+        .row{
+            .col{
+                p{
+                    color: var(--text-color);
+                    strong{
+                        color: var(--primary-color);
+                    }
+                }
+            }
+        }
+    }
+}

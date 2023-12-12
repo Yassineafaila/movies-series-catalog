@@ -1,0 +1,11 @@
+.App {
+  font-size: 0.9375rem !important;
+  height: inherit;
+  width: 100%;
+  font-family: var(--ff-body);
+  background-color: var(--secondary-color);
+  height: 100%;
+  main{
+    min-height: calc(100vh - 74px);
+  }
+}
