@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <main className="py-3">
+      <main className="py-3 position-relative">
         <Container className="mx-auto">
           <Outlet />
         </Container>

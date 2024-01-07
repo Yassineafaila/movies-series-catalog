@@ -1,0 +1,20 @@
+
+.hero_container {
+    height: 100%;
+    position: absolute;
+    top: 0;
+    // width: 100vw;
+    left: 0;
+    // display: block;
+    .hero_images{
+        display: block;
+        width: 100%;
+        background-color: rgba(0,0,0,0.8) !important;
+    }
+    .hero_content{
+        position: absolute;
+        top: 50%;
+        left: 10%;
+    }
+
+}
