@@ -14,7 +14,7 @@ function Slide({ movies }) {
       spaceBetween={0}
       slidesPerView={1}
       autoplay={{
-        delay:2500,
+        delay:4000,
         disableOnInteraction:false
       }}
       modules={[Autoplay]}
